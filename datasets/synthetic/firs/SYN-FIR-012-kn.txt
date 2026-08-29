@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-012
+Case: KSP-SYN-012
+Language: kn
+Location: Synthetic Sector 12, Karnataka
+Organization: Demonstration Cooperative Society
+ಈ ಕಾಲ್ಪನಿಕ ಪ್ರಥಮ ಮಾಹಿತಿ ವರದಿಯನ್ನು ತರಬೇತಿ ಮತ್ತು ಪ್ರದರ್ಶನಕ್ಕಾಗಿ ಮಾತ್ರ ದಾಖಲಿಸಲಾಗಿದೆ. ಇದು ಯಾವುದೇ ನೈಜ ವ್ಯಕ್ತಿಗೆ ಸಂಬಂಧಿಸಿಲ್ಲ.
+Person: Harini Rao Demo 12, Phone: 9120101663, associated with the fictional training record.
+Person: Harini Kumar Demo 12, Phone: 9120201682, associated with the fictional training record.
+Person: Harini Patil Demo 12, Phone: 9120301701, associated with the fictional training record.
+Person: Harini Shetty Demo 12, Phone: 9120401720, associated with the fictional training record.
+Person: Harini Kulkarni Demo 12, Phone: 9120501739, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

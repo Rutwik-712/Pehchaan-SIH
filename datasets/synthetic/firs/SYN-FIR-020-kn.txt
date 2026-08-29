@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-020
+Case: KSP-SYN-020
+Language: kn
+Location: Synthetic Sector 20, Karnataka
+Organization: Demonstration Cooperative Society
+ಈ ಕಾಲ್ಪನಿಕ ಪ್ರಥಮ ಮಾಹಿತಿ ವರದಿಯನ್ನು ತರಬೇತಿ ಮತ್ತು ಪ್ರದರ್ಶನಕ್ಕಾಗಿ ಮಾತ್ರ ದಾಖಲಿಸಲಾಗಿದೆ. ಇದು ಯಾವುದೇ ನೈಜ ವ್ಯಕ್ತಿಗೆ ಸಂಬಂಧಿಸಿಲ್ಲ.
+Person: Pooja Rao Demo 20, Phone: 9200102759, associated with the fictional training record.
+Person: Pooja Kumar Demo 20, Phone: 9200202778, associated with the fictional training record.
+Person: Pooja Patil Demo 20, Phone: 9200302797, associated with the fictional training record.
+Person: Pooja Shetty Demo 20, Phone: 9200402816, associated with the fictional training record.
+Person: Pooja Kulkarni Demo 20, Phone: 9200502835, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

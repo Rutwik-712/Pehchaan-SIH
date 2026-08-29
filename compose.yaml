@@ -1,0 +1,247 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: sih
+      POSTGRES_USER: sih
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sih_dev_only}
+    ports:
+      - "127.0.0.1:55432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sih -d sih"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ACCESS_KEY:-sih_minio}
+      MINIO_ROOT_PASSWORD: ${MINIO_SECRET_KEY:-sih_minio_dev_only}
+    ports:
+      - "127.0.0.1:19000:9000"
+      - "127.0.0.1:19001:9001"
+    volumes:
+      - minio_data:/data
+
+  redis:
+    image: redis:7.4-alpine
+    command: ["redis-server", "--appendonly", "yes", "--appendfsync", "everysec", "--requirepass", "${REDIS_PASSWORD:-sih_redis_dev_only}"]
+    environment:
+      REDISCLI_AUTH: ${REDIS_PASSWORD:-sih_redis_dev_only}
+    ports:
+      - "127.0.0.1:16379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    volumes:
+      - redis_data:/data
+
+  neo4j:
+    image: neo4j:5.26.12-community
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-SIH1@2026}
+      NEO4J_PLUGINS: '["graph-data-science"]'
+      NEO4J_dbms_security_procedures_allowlist: gds.*
+      NEO4J_dbms_security_procedures_unrestricted: gds.*
+      NEO4J_server_memory_heap_initial__size: 256m
+      NEO4J_server_memory_heap_max__size: 512m
+      NEO4J_server_memory_pagecache_size: 256m
+    ports:
+      - "127.0.0.1:17474:7474"
+      - "127.0.0.1:17687:7687"
+    healthcheck:
+      test: ["CMD-SHELL", "graph_password=$${NEO4J_AUTH#*/}; cypher-shell -u neo4j -p \"$$graph_password\" 'RETURN 1' >/dev/null"]
+      interval: 10s
+      timeout: 5s
+      retries: 18
+      start_period: 30s
+    volumes:
+      - neo4j_data:/data
+      - neo4j_plugins:/plugins
+
+  backend:
+    image: threadline-backend:phase8
+    build:
+      context: ./backend
+    environment:
+      APP_ENV: development
+      APP_DEBUG: "false"
+      BUILD_VERSION: 0.8.0-phase8
+      FRONTEND_ORIGIN: http://localhost:5173
+      DATABASE_URL: postgresql+psycopg://sih:${POSTGRES_PASSWORD:-sih_dev_only}@postgres:5432/sih
+      DEMO_ACCOUNT_PASSWORD: SIH1@2026
+      SEED_DEMO_DATA: "true"
+      SEED_MOBILE_FRAUD_DEMO: "true"
+      OBJECT_STORAGE_BACKEND: minio
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:-sih_minio}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:-sih_minio_dev_only}
+      MINIO_BUCKET: evidence
+      MINIO_SECURE: "false"
+      MAX_UPLOAD_BYTES: "26214400"
+      CELERY_BROKER_URL: redis://:${REDIS_PASSWORD:-sih_redis_dev_only}@redis:6379/0
+      CELERY_RESULT_BACKEND: redis://:${REDIS_PASSWORD:-sih_redis_dev_only}@redis:6379/1
+      CELERY_TASK_ALWAYS_EAGER: "false"
+      SPACY_MODEL: ${SPACY_MODEL:-en_core_web_sm}
+      EXTRACTION_REVIEW_THRESHOLD: ${EXTRACTION_REVIEW_THRESHOLD:-70}
+      PADDLEOCR_ENABLED: ${PADDLEOCR_ENABLED:-true}
+      PADDLEOCR_LANGUAGE: ${PADDLEOCR_LANGUAGE:-en,hi,mr,ka}
+      PADDLEOCR_VERSION: ${PADDLEOCR_VERSION:-PP-OCRv3}
+      PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK: "True"
+      QWEN_ENABLED: ${QWEN_ENABLED:-true}
+      QWEN_BASE_URL: ${QWEN_BASE_URL:-http://ollama:11434}
+      QWEN_MODEL: ${QWEN_MODEL:-qwen2.5:7b-instruct-q4_K_M}
+      QWEN_TIMEOUT_SECONDS: ${QWEN_TIMEOUT_SECONDS:-180}
+      QWEN_NUM_CTX: ${QWEN_NUM_CTX:-4096}
+      QWEN_ALLOWED_HOSTS: ${QWEN_ALLOWED_HOSTS:-host.docker.internal,127.0.0.1,localhost,ollama}
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: neo4j
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-SIH1@2026}
+      NEO4J_DATABASE: neo4j
+      NEO4J_ALLOWED_HOSTS: neo4j,127.0.0.1,localhost
+      RESOLUTION_CANDIDATE_THRESHOLD: ${RESOLUTION_CANDIDATE_THRESHOLD:-0.60}
+      GRAPH_MAX_NODES_PER_CASE: ${GRAPH_MAX_NODES_PER_CASE:-5000}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "127.0.0.1:18000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/v1/health')"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    depends_on:
+      postgres:
+        condition: service_healthy
+      minio:
+        condition: service_started
+      redis:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+
+  ocr-model-init:
+    image: threadline-backend:phase8
+    user: "0:0"
+    command: ["chown", "-R", "10001:10001", "/home/appuser/.paddlex"]
+    volumes:
+      - paddle_models:/home/appuser/.paddlex
+
+  worker:
+    image: threadline-backend:phase8
+    build:
+      context: ./backend
+    command: ["celery", "-A", "app.celery_app:celery_app", "worker", "--loglevel=INFO", "--concurrency=1", "--hostname=phase8@%h"]
+    environment:
+      APP_ENV: development
+      APP_DEBUG: "false"
+      BUILD_VERSION: 0.8.0-phase8
+      DATABASE_URL: postgresql+psycopg://sih:${POSTGRES_PASSWORD:-sih_dev_only}@postgres:5432/sih
+      DEMO_ACCOUNT_PASSWORD: SIH1@2026
+      SEED_DEMO_DATA: "false"
+      OBJECT_STORAGE_BACKEND: minio
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:-sih_minio}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:-sih_minio_dev_only}
+      MINIO_BUCKET: evidence
+      MINIO_SECURE: "false"
+      CELERY_BROKER_URL: redis://:${REDIS_PASSWORD:-sih_redis_dev_only}@redis:6379/0
+      CELERY_RESULT_BACKEND: redis://:${REDIS_PASSWORD:-sih_redis_dev_only}@redis:6379/1
+      CELERY_TASK_ALWAYS_EAGER: "false"
+      SPACY_MODEL: ${SPACY_MODEL:-en_core_web_sm}
+      EXTRACTION_REVIEW_THRESHOLD: ${EXTRACTION_REVIEW_THRESHOLD:-70}
+      PADDLEOCR_ENABLED: ${PADDLEOCR_ENABLED:-true}
+      PADDLEOCR_LANGUAGE: ${PADDLEOCR_LANGUAGE:-en,hi,mr,ka}
+      PADDLEOCR_VERSION: ${PADDLEOCR_VERSION:-PP-OCRv3}
+      PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK: "True"
+      QWEN_ENABLED: ${QWEN_ENABLED:-true}
+      QWEN_BASE_URL: ${QWEN_BASE_URL:-http://ollama:11434}
+      QWEN_MODEL: ${QWEN_MODEL:-qwen2.5:7b-instruct-q4_K_M}
+      QWEN_TIMEOUT_SECONDS: ${QWEN_TIMEOUT_SECONDS:-180}
+      QWEN_NUM_CTX: ${QWEN_NUM_CTX:-4096}
+      QWEN_ALLOWED_HOSTS: ${QWEN_ALLOWED_HOSTS:-host.docker.internal,127.0.0.1,localhost,ollama}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      minio:
+        condition: service_started
+      redis:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+      ocr-model-init:
+        condition: service_completed_successfully
+    volumes:
+      - paddle_models:/home/appuser/.paddlex
+
+  flower:
+    image: threadline-backend:phase8
+    command: ["celery", "-A", "app.celery_app:celery_app", "flower", "--port=5555"]
+    environment:
+      CELERY_BROKER_URL: redis://:${REDIS_PASSWORD:-sih_redis_dev_only}@redis:6379/0
+      CELERY_RESULT_BACKEND: redis://:${REDIS_PASSWORD:-sih_redis_dev_only}@redis:6379/1
+      FLOWER_BASIC_AUTH: ${FLOWER_BASIC_AUTH:-sih_flower:SIH1@2026}
+    ports:
+      - "127.0.0.1:15555:5555"
+    depends_on:
+      redis:
+        condition: service_healthy
+      worker:
+        condition: service_started
+
+  frontend:
+    build:
+      context: ./frontend
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:15173:80"
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "127.0.0.1:11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  demo-data-loader:
+    image: threadline-backend:phase8
+    profiles: ["demo-data"]
+    command: ["python", "/app/scripts/load_phase8_dataset.py", "--base-url", "http://backend:8000/api/v1", "--auto-review-synthetic"]
+    volumes:
+      - ./datasets:/datasets:ro
+    depends_on:
+      backend:
+        condition: service_healthy
+      worker:
+        condition: service_started
+
+volumes:
+  postgres_data:
+  minio_data:
+  redis_data:
+  neo4j_data:
+  neo4j_plugins:
+  ollama_data:
+  paddle_models:

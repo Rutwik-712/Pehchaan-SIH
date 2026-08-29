@@ -1,0 +1,275 @@
+{
+  "dataset": "threadline-phase8-synthetic-v1",
+  "warning": "Entirely fictional. No record may be treated as a real allegation or guilt determination.",
+  "case_count": 20,
+  "subject_count": 100,
+  "fir_count": 20,
+  "languages": [
+    "en",
+    "hi",
+    "kn",
+    "mr"
+  ],
+  "files": [
+    {
+      "case_id": "KSP-CR-2048",
+      "filename": "SYN-FIR-001-en.txt",
+      "language": "en",
+      "sha256": "678b0188415ef29ec7280de71dbfc7d63d4f830d3d842693f0b003d36ec0cc39",
+      "subjects": [
+        "SYN-SUB-001",
+        "SYN-SUB-002",
+        "SYN-SUB-003",
+        "SYN-SUB-004",
+        "SYN-SUB-005"
+      ]
+    },
+    {
+      "case_id": "KSP-CR-2099",
+      "filename": "SYN-FIR-002-hi.txt",
+      "language": "hi",
+      "sha256": "ff05c6a72cd8cb47aee66830bcf2fb16b417aecc093572cb5323b10782b7e225",
+      "subjects": [
+        "SYN-SUB-006",
+        "SYN-SUB-007",
+        "SYN-SUB-008",
+        "SYN-SUB-009",
+        "SYN-SUB-010"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-003",
+      "filename": "SYN-FIR-003-mr.txt",
+      "language": "mr",
+      "sha256": "58aaa1bb49c09cf44ba39b02c1187f99de0f42b73409b688616fa44173ae5d93",
+      "subjects": [
+        "SYN-SUB-011",
+        "SYN-SUB-012",
+        "SYN-SUB-013",
+        "SYN-SUB-014",
+        "SYN-SUB-015"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-004",
+      "filename": "SYN-FIR-004-kn.txt",
+      "language": "kn",
+      "sha256": "cec6d5059d48df0ecb1edcc4e68b506a28fc24358edcf921d8198cffdb63861e",
+      "subjects": [
+        "SYN-SUB-016",
+        "SYN-SUB-017",
+        "SYN-SUB-018",
+        "SYN-SUB-019",
+        "SYN-SUB-020"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-005",
+      "filename": "SYN-FIR-005-en.txt",
+      "language": "en",
+      "sha256": "928220a98ef33095a7489c393072fbb622d0514ccaef5be3ec1afddefd3ed0c3",
+      "subjects": [
+        "SYN-SUB-021",
+        "SYN-SUB-022",
+        "SYN-SUB-023",
+        "SYN-SUB-024",
+        "SYN-SUB-025"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-006",
+      "filename": "SYN-FIR-006-hi.txt",
+      "language": "hi",
+      "sha256": "0338fc35ce5ac1c6783f392bc44cf44de2ccc160a09a4db0572909f1e03606a8",
+      "subjects": [
+        "SYN-SUB-026",
+        "SYN-SUB-027",
+        "SYN-SUB-028",
+        "SYN-SUB-029",
+        "SYN-SUB-030"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-007",
+      "filename": "SYN-FIR-007-mr.txt",
+      "language": "mr",
+      "sha256": "c6b735de88307f2996fa5720add10417e84a8b7fa702b8474aac80bf0c67d349",
+      "subjects": [
+        "SYN-SUB-031",
+        "SYN-SUB-032",
+        "SYN-SUB-033",
+        "SYN-SUB-034",
+        "SYN-SUB-035"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-008",
+      "filename": "SYN-FIR-008-kn.txt",
+      "language": "kn",
+      "sha256": "c4aa70a315193509e4fdc7daae111d200022fbcd8f2b7f0a22caa3bad36029ec",
+      "subjects": [
+        "SYN-SUB-036",
+        "SYN-SUB-037",
+        "SYN-SUB-038",
+        "SYN-SUB-039",
+        "SYN-SUB-040"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-009",
+      "filename": "SYN-FIR-009-en.txt",
+      "language": "en",
+      "sha256": "d641cce380d5c5d96643d48131b7b9a9ea9c150913cad83cf82614b549af1f95",
+      "subjects": [
+        "SYN-SUB-041",
+        "SYN-SUB-042",
+        "SYN-SUB-043",
+        "SYN-SUB-044",
+        "SYN-SUB-045"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-010",
+      "filename": "SYN-FIR-010-hi.txt",
+      "language": "hi",
+      "sha256": "b22f31e9dad0de397ceb061ea399af1ddb954489462d92900cfe2d386cb6b959",
+      "subjects": [
+        "SYN-SUB-046",
+        "SYN-SUB-047",
+        "SYN-SUB-048",
+        "SYN-SUB-049",
+        "SYN-SUB-050"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-011",
+      "filename": "SYN-FIR-011-mr.txt",
+      "language": "mr",
+      "sha256": "45e0048fcf5b32ebad0cebef240c01c9e347294cb135bc96a2b35bc311d50fb0",
+      "subjects": [
+        "SYN-SUB-051",
+        "SYN-SUB-052",
+        "SYN-SUB-053",
+        "SYN-SUB-054",
+        "SYN-SUB-055"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-012",
+      "filename": "SYN-FIR-012-kn.txt",
+      "language": "kn",
+      "sha256": "d676814d0b57d9eebc7388b27e4d361e98fdd56b578b9a6812321c07861dd88d",
+      "subjects": [
+        "SYN-SUB-056",
+        "SYN-SUB-057",
+        "SYN-SUB-058",
+        "SYN-SUB-059",
+        "SYN-SUB-060"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-013",
+      "filename": "SYN-FIR-013-en.txt",
+      "language": "en",
+      "sha256": "6f6b37ed96926d89670dab17c0ea4be361cfae64fddaa83492c1b8394f8f3621",
+      "subjects": [
+        "SYN-SUB-061",
+        "SYN-SUB-062",
+        "SYN-SUB-063",
+        "SYN-SUB-064",
+        "SYN-SUB-065"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-014",
+      "filename": "SYN-FIR-014-hi.txt",
+      "language": "hi",
+      "sha256": "e0763063fc64a4884e2a884e75eced126c8c5dd8c6c2b92747d9a05449941381",
+      "subjects": [
+        "SYN-SUB-066",
+        "SYN-SUB-067",
+        "SYN-SUB-068",
+        "SYN-SUB-069",
+        "SYN-SUB-070"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-015",
+      "filename": "SYN-FIR-015-mr.txt",
+      "language": "mr",
+      "sha256": "fe4ddf32971c868fe2ff42b33789a8459deafd3cb7ab36c848d563108f2715aa",
+      "subjects": [
+        "SYN-SUB-071",
+        "SYN-SUB-072",
+        "SYN-SUB-073",
+        "SYN-SUB-074",
+        "SYN-SUB-075"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-016",
+      "filename": "SYN-FIR-016-kn.txt",
+      "language": "kn",
+      "sha256": "4d69042bd6ec7ae87d04ebdd7e91c7082fc788df92c3813a2aa0310a2783d7b3",
+      "subjects": [
+        "SYN-SUB-076",
+        "SYN-SUB-077",
+        "SYN-SUB-078",
+        "SYN-SUB-079",
+        "SYN-SUB-080"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-017",
+      "filename": "SYN-FIR-017-en.txt",
+      "language": "en",
+      "sha256": "05b9be71a6280cd55e593feb708217d352bcb7089f00783fbe7f62c347fa5680",
+      "subjects": [
+        "SYN-SUB-081",
+        "SYN-SUB-082",
+        "SYN-SUB-083",
+        "SYN-SUB-084",
+        "SYN-SUB-085"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-018",
+      "filename": "SYN-FIR-018-hi.txt",
+      "language": "hi",
+      "sha256": "c8337d75eda88c6e4b7ac9d82ab495ee4f0ee628d660d302052e82be83c82d45",
+      "subjects": [
+        "SYN-SUB-086",
+        "SYN-SUB-087",
+        "SYN-SUB-088",
+        "SYN-SUB-089",
+        "SYN-SUB-090"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-019",
+      "filename": "SYN-FIR-019-mr.txt",
+      "language": "mr",
+      "sha256": "7baec817f18b4e36cfce502d4152daec7456c20f67a34134cf5fc0ab68020660",
+      "subjects": [
+        "SYN-SUB-091",
+        "SYN-SUB-092",
+        "SYN-SUB-093",
+        "SYN-SUB-094",
+        "SYN-SUB-095"
+      ]
+    },
+    {
+      "case_id": "KSP-SYN-020",
+      "filename": "SYN-FIR-020-kn.txt",
+      "language": "kn",
+      "sha256": "da6b0bd8bdb1ecab6805cecf41812f002e21a63c60f197e6586b9698d4f211c8",
+      "subjects": [
+        "SYN-SUB-096",
+        "SYN-SUB-097",
+        "SYN-SUB-098",
+        "SYN-SUB-099",
+        "SYN-SUB-100"
+      ]
+    }
+  ]
+}

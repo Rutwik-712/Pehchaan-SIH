@@ -1,0 +1,29 @@
+SYNTHETIC DEMONSTRATION FIR — NOT A REAL POLICE RECORD
+
+FIR Number: SAMPLE-FIR-NETWORK-002
+Police Station: North Demonstration Police Station, Bengaluru
+Date: 27/08/2026
+Language: English
+
+COMPLAINT SUMMARY
+
+On 27/08/2026, a fictional intelligence note recorded activity involving a shared subject and identifiers from SAMPLE-FIR-NETWORK-001. This deliberate overlap is used to demonstrate how the system joins information from separate documents.
+
+Person: Kavya Nair, Phone: 9988776601, Vehicle: KA05MN4821, Location: Yeshwanthpur Railway Yard.
+Person: Rohan Das, Phone: 9977665503, Vehicle: MH12QR7719, Organization: Blue River Warehousing.
+
+The note states that Kavya Nair met Rohan Das near Yeshwanthpur Railway Yard. Kavya Nair was associated in the report with Northstar Logistics, while Rohan Das was associated with Blue River Warehousing. The phone 9988776601 and vehicle KA05MN4821 are intentionally repeated from the first sample FIR so entity resolution can create a connected network. These statements are unverified investigative inputs and do not establish guilt.
+
+PROPERTY OR IDENTIFIERS NOTED
+
+Phone: 9988776601
+Phone: 9977665503
+Vehicle: KA05MN4821
+Vehicle: MH12QR7719
+Location: Yeshwanthpur Railway Yard
+Organization: Northstar Logistics
+Organization: Blue River Warehousing
+
+DECLARATION
+
+All names, numbers, vehicles, organizations, locations, and events in this file are synthetic and created solely for software demonstration.

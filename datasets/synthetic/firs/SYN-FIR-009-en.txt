@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-009
+Case: KSP-SYN-009
+Language: en
+Location: Synthetic Sector 09, Karnataka
+Organization: Demonstration Cooperative Society
+This fictional FIR records a reported association for training and demonstration only.
+Person: Dev Rao Demo 09, Phone: 9090101252, associated with the fictional training record.
+Person: Dev Kumar Demo 09, Phone: 9090201271, associated with the fictional training record.
+Person: Dev Patil Demo 09, Phone: 9090301290, associated with the fictional training record.
+Person: Dev Shetty Demo 09, Phone: 9090401309, associated with the fictional training record.
+Person: Dev Kulkarni Demo 09, Phone: 9090501328, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

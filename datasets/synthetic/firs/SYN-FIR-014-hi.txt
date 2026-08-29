@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-014
+Case: KSP-SYN-014
+Language: hi
+Location: Synthetic Sector 14, Karnataka
+Organization: Demonstration Cooperative Society
+यह काल्पनिक प्राथमिकी केवल प्रशिक्षण और प्रदर्शन के लिए दर्ज की गई है। किसी वास्तविक व्यक्ति से संबंध नहीं है।
+Person: Jaya Rao Demo 14, Phone: 9140101937, associated with the fictional training record.
+Person: Jaya Kumar Demo 14, Phone: 9140201956, associated with the fictional training record.
+Person: Jaya Patil Demo 14, Phone: 9140301975, associated with the fictional training record.
+Person: Jaya Shetty Demo 14, Phone: 9140401994, associated with the fictional training record.
+Person: Jaya Kulkarni Demo 14, Phone: 9140502013, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-007
+Case: KSP-SYN-007
+Language: mr
+Location: Synthetic Sector 07, Karnataka
+Organization: Demonstration Cooperative Society
+ही काल्पनिक प्रथम माहिती अहवाल नोंद केवळ प्रशिक्षण आणि प्रात्यक्षिकासाठी आहे. याचा कोणत्याही वास्तविक व्यक्तीशी संबंध नाही.
+Person: Charan Rao Demo 07, Phone: 9070100978, associated with the fictional training record.
+Person: Charan Kumar Demo 07, Phone: 9070200997, associated with the fictional training record.
+Person: Charan Patil Demo 07, Phone: 9070301016, associated with the fictional training record.
+Person: Charan Shetty Demo 07, Phone: 9070401035, associated with the fictional training record.
+Person: Charan Kulkarni Demo 07, Phone: 9070501054, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

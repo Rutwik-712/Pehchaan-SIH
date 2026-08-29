@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-015
+Case: KSP-SYN-015
+Language: mr
+Location: Synthetic Sector 15, Karnataka
+Organization: Demonstration Cooperative Society
+ही काल्पनिक प्रथम माहिती अहवाल नोंद केवळ प्रशिक्षण आणि प्रात्यक्षिकासाठी आहे. याचा कोणत्याही वास्तविक व्यक्तीशी संबंध नाही.
+Person: Karan Rao Demo 15, Phone: 9150102074, associated with the fictional training record.
+Person: Karan Kumar Demo 15, Phone: 9150202093, associated with the fictional training record.
+Person: Karan Patil Demo 15, Phone: 9150302112, associated with the fictional training record.
+Person: Karan Shetty Demo 15, Phone: 9150402131, associated with the fictional training record.
+Person: Karan Kulkarni Demo 15, Phone: 9150502150, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

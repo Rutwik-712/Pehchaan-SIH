@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-002
+Case: KSP-CR-2099
+Language: hi
+Location: Synthetic Sector 02, Karnataka
+Organization: Demonstration Cooperative Society
+यह काल्पनिक प्राथमिकी केवल प्रशिक्षण और प्रदर्शन के लिए दर्ज की गई है। किसी वास्तविक व्यक्ति से संबंध नहीं है।
+Person: Aditi Rao Demo 02, Phone: 9020100293, associated with the fictional training record.
+Person: Aditi Kumar Demo 02, Phone: 9020200312, associated with the fictional training record.
+Person: Aditi Patil Demo 02, Phone: 9020300331, associated with the fictional training record.
+Person: Aditi Shetty Demo 02, Phone: 9020400350, associated with the fictional training record.
+Person: Aditi Kulkarni Demo 02, Phone: 9020500369, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

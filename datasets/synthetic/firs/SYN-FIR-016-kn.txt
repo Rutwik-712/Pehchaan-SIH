@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-016
+Case: KSP-SYN-016
+Language: kn
+Location: Synthetic Sector 16, Karnataka
+Organization: Demonstration Cooperative Society
+ಈ ಕಾಲ್ಪನಿಕ ಪ್ರಥಮ ಮಾಹಿತಿ ವರದಿಯನ್ನು ತರಬೇತಿ ಮತ್ತು ಪ್ರದರ್ಶನಕ್ಕಾಗಿ ಮಾತ್ರ ದಾಖಲಿಸಲಾಗಿದೆ. ಇದು ಯಾವುದೇ ನೈಜ ವ್ಯಕ್ತಿಗೆ ಸಂಬಂಧಿಸಿಲ್ಲ.
+Person: Lakshmi Rao Demo 16, Phone: 9160102211, associated with the fictional training record.
+Person: Lakshmi Kumar Demo 16, Phone: 9160202230, associated with the fictional training record.
+Person: Lakshmi Patil Demo 16, Phone: 9160302249, associated with the fictional training record.
+Person: Lakshmi Shetty Demo 16, Phone: 9160402268, associated with the fictional training record.
+Person: Lakshmi Kulkarni Demo 16, Phone: 9160502287, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

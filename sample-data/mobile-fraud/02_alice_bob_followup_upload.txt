@@ -1,0 +1,15 @@
+SYNTHETIC FOLLOW-UP REPORT FOR TRAINING AND DEMONSTRATION ONLY
+Case ID: KSP-MF-2101
+Subject: Alice and Bob mobile-fraud follow-up
+Date: 29/08/2026
+
+Person: Alice Mehta
+Person: Bob Kapoor
+
+The complainant reported that Alice Mehta called Bob Kapoor from the fictional
+mobile number 9876502101 about a simulated mobile-wallet verification request.
+Bob Kapoor was also associated with the fictional mobile number 9876502102.
+
+This file is fictional and is intended to be uploaded manually into the
+Pehchaan demonstration case. It provides a small, easy-to-review example of two
+people and mobile identifiers. It does not determine guilt or criminal intent.

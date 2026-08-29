@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-013
+Case: KSP-SYN-013
+Language: en
+Location: Synthetic Sector 13, Karnataka
+Organization: Demonstration Cooperative Society
+This fictional FIR records a reported association for training and demonstration only.
+Person: Irfan Rao Demo 13, Phone: 9130101800, associated with the fictional training record.
+Person: Irfan Kumar Demo 13, Phone: 9130201819, associated with the fictional training record.
+Person: Irfan Patil Demo 13, Phone: 9130301838, associated with the fictional training record.
+Person: Irfan Shetty Demo 13, Phone: 9130401857, associated with the fictional training record.
+Person: Irfan Kulkarni Demo 13, Phone: 9130501876, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

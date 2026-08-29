@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-010
+Case: KSP-SYN-010
+Language: hi
+Location: Synthetic Sector 10, Karnataka
+Organization: Demonstration Cooperative Society
+यह काल्पनिक प्राथमिकी केवल प्रशिक्षण और प्रदर्शन के लिए दर्ज की गई है। किसी वास्तविक व्यक्ति से संबंध नहीं है।
+Person: Farah Rao Demo 10, Phone: 9100101389, associated with the fictional training record.
+Person: Farah Kumar Demo 10, Phone: 9100201408, associated with the fictional training record.
+Person: Farah Patil Demo 10, Phone: 9100301427, associated with the fictional training record.
+Person: Farah Shetty Demo 10, Phone: 9100401446, associated with the fictional training record.
+Person: Farah Kulkarni Demo 10, Phone: 9100501465, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

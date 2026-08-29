@@ -1,0 +1,27 @@
+SYNTHETIC DEMONSTRATION FIR — NOT A REAL POLICE RECORD
+
+FIR Number: SAMPLE-FIR-NETWORK-001
+Police Station: Central Demonstration Police Station, Bengaluru
+Date: 27/08/2026
+Language: English
+
+COMPLAINT SUMMARY
+
+On 26/08/2026, surveillance staff reported a meeting involving the following fictional subjects and identifiers. This document is intended only to test entity extraction, relationship review, entity resolution, and graph construction.
+
+Person: Kavya Nair, Phone: 9988776601, Vehicle: KA05MN4821, Location: Majestic Bus Stand.
+Person: Imran Shaikh, Phone: 9988776602, Location: Majestic Bus Stand, Organization: Northstar Logistics.
+
+The report states that Kavya Nair contacted Imran Shaikh near Majestic Bus Stand. The vehicle KA05MN4821 was observed near premises associated with Northstar Logistics. These statements are unverified investigative inputs and do not establish guilt.
+
+PROPERTY OR IDENTIFIERS NOTED
+
+Phone: 9988776601
+Phone: 9988776602
+Vehicle: KA05MN4821
+Location: Majestic Bus Stand
+Organization: Northstar Logistics
+
+DECLARATION
+
+All names, numbers, vehicles, organizations, locations, and events in this file are synthetic and created solely for software demonstration.

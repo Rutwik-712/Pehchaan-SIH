@@ -1,0 +1,122 @@
+[
+  {
+    "case_id": "KSP-CR-2048",
+    "fir_id": "SYN-FIR-001",
+    "language": "en",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-CR-2099",
+    "fir_id": "SYN-FIR-002",
+    "language": "hi",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-003",
+    "fir_id": "SYN-FIR-003",
+    "language": "mr",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-004",
+    "fir_id": "SYN-FIR-004",
+    "language": "kn",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-005",
+    "fir_id": "SYN-FIR-005",
+    "language": "en",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-006",
+    "fir_id": "SYN-FIR-006",
+    "language": "hi",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-007",
+    "fir_id": "SYN-FIR-007",
+    "language": "mr",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-008",
+    "fir_id": "SYN-FIR-008",
+    "language": "kn",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-009",
+    "fir_id": "SYN-FIR-009",
+    "language": "en",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-010",
+    "fir_id": "SYN-FIR-010",
+    "language": "hi",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-011",
+    "fir_id": "SYN-FIR-011",
+    "language": "mr",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-012",
+    "fir_id": "SYN-FIR-012",
+    "language": "kn",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-013",
+    "fir_id": "SYN-FIR-013",
+    "language": "en",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-014",
+    "fir_id": "SYN-FIR-014",
+    "language": "hi",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-015",
+    "fir_id": "SYN-FIR-015",
+    "language": "mr",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-016",
+    "fir_id": "SYN-FIR-016",
+    "language": "kn",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-017",
+    "fir_id": "SYN-FIR-017",
+    "language": "en",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-018",
+    "fir_id": "SYN-FIR-018",
+    "language": "hi",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-019",
+    "fir_id": "SYN-FIR-019",
+    "language": "mr",
+    "subject_count": 5
+  },
+  {
+    "case_id": "KSP-SYN-020",
+    "fir_id": "SYN-FIR-020",
+    "language": "kn",
+    "subject_count": 5
+  }
+]

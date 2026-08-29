@@ -1,0 +1,33 @@
+SYNTHETIC FIR FOR TRAINING AND DEMONSTRATION ONLY
+Case ID: KSP-MF-2101
+Subject: Mobile wallet impersonation and fraudulent transfer network
+Jurisdiction: Bengaluru Cyber Crime
+Date: 28/08/2026
+
+The following names and events are entirely fictional. This document is not an
+allegation against any real individual and must be used only with the Pehchaan
+demonstration environment.
+
+Person: Alice Mehta
+Person: Bob Kapoor
+Person: Carol Fernandes
+Person: David Khan
+Person: Eva Nair
+
+REPORTED OBSERVATIONS
+
+Alice Mehta called Bob Kapoor regarding access to a fictional mobile-wallet
+account used in this demonstration.
+
+Bob Kapoor transferred INR 25,000 to Carol Fernandes through the fictional
+mobile-wallet channel described by the complainant.
+
+Carol Fernandes was associated with David Khan in the collection of fictional
+subscriber details used during the simulated fraud.
+
+David Khan met with Eva Nair near the fictional Digital Market, Bengaluru,
+after the reported transfers.
+
+The five people above are included only to demonstrate entity extraction,
+human review, relationship mapping and graph analytics. No statement in this
+synthetic FIR establishes guilt, intent or criminal responsibility.

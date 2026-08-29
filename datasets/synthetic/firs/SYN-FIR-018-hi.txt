@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-018
+Case: KSP-SYN-018
+Language: hi
+Location: Synthetic Sector 18, Karnataka
+Organization: Demonstration Cooperative Society
+यह काल्पनिक प्राथमिकी केवल प्रशिक्षण और प्रदर्शन के लिए दर्ज की गई है। किसी वास्तविक व्यक्ति से संबंध नहीं है।
+Person: Nisha Rao Demo 18, Phone: 9180102485, associated with the fictional training record.
+Person: Nisha Kumar Demo 18, Phone: 9180202504, associated with the fictional training record.
+Person: Nisha Patil Demo 18, Phone: 9180302523, associated with the fictional training record.
+Person: Nisha Shetty Demo 18, Phone: 9180402542, associated with the fictional training record.
+Person: Nisha Kulkarni Demo 18, Phone: 9180502561, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

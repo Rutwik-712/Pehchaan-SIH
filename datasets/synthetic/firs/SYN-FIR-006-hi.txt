@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-006
+Case: KSP-SYN-006
+Language: hi
+Location: Synthetic Sector 06, Karnataka
+Organization: Demonstration Cooperative Society
+यह काल्पनिक प्राथमिकी केवल प्रशिक्षण और प्रदर्शन के लिए दर्ज की गई है। किसी वास्तविक व्यक्ति से संबंध नहीं है।
+Person: Bhavna Rao Demo 06, Phone: 9060100841, associated with the fictional training record.
+Person: Bhavna Kumar Demo 06, Phone: 9060200860, associated with the fictional training record.
+Person: Bhavna Patil Demo 06, Phone: 9060300879, associated with the fictional training record.
+Person: Bhavna Shetty Demo 06, Phone: 9060400898, associated with the fictional training record.
+Person: Bhavna Kulkarni Demo 06, Phone: 9060500917, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

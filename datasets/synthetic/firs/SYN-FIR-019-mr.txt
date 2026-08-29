@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-019
+Case: KSP-SYN-019
+Language: mr
+Location: Synthetic Sector 19, Karnataka
+Organization: Demonstration Cooperative Society
+ही काल्पनिक प्रथम माहिती अहवाल नोंद केवळ प्रशिक्षण आणि प्रात्यक्षिकासाठी आहे. याचा कोणत्याही वास्तविक व्यक्तीशी संबंध नाही.
+Person: Omkar Rao Demo 19, Phone: 9190102622, associated with the fictional training record.
+Person: Omkar Kumar Demo 19, Phone: 9190202641, associated with the fictional training record.
+Person: Omkar Patil Demo 19, Phone: 9190302660, associated with the fictional training record.
+Person: Omkar Shetty Demo 19, Phone: 9190402679, associated with the fictional training record.
+Person: Omkar Kulkarni Demo 19, Phone: 9190502698, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-011
+Case: KSP-SYN-011
+Language: mr
+Location: Synthetic Sector 11, Karnataka
+Organization: Demonstration Cooperative Society
+ही काल्पनिक प्रथम माहिती अहवाल नोंद केवळ प्रशिक्षण आणि प्रात्यक्षिकासाठी आहे. याचा कोणत्याही वास्तविक व्यक्तीशी संबंध नाही.
+Person: Girish Rao Demo 11, Phone: 9110101526, associated with the fictional training record.
+Person: Girish Kumar Demo 11, Phone: 9110201545, associated with the fictional training record.
+Person: Girish Patil Demo 11, Phone: 9110301564, associated with the fictional training record.
+Person: Girish Shetty Demo 11, Phone: 9110401583, associated with the fictional training record.
+Person: Girish Kulkarni Demo 11, Phone: 9110501602, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

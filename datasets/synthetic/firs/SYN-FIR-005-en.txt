@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-005
+Case: KSP-SYN-005
+Language: en
+Location: Synthetic Sector 05, Karnataka
+Organization: Demonstration Cooperative Society
+This fictional FIR records a reported association for training and demonstration only.
+Person: Arjun Rao Demo 05, Phone: 9050100704, associated with the fictional training record.
+Person: Arjun Kumar Demo 05, Phone: 9050200723, associated with the fictional training record.
+Person: Arjun Patil Demo 05, Phone: 9050300742, associated with the fictional training record.
+Person: Arjun Shetty Demo 05, Phone: 9050400761, associated with the fictional training record.
+Person: Arjun Kulkarni Demo 05, Phone: 9050500780, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

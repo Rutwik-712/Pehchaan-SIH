@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-003
+Case: KSP-SYN-003
+Language: mr
+Location: Synthetic Sector 03, Karnataka
+Organization: Demonstration Cooperative Society
+ही काल्पनिक प्रथम माहिती अहवाल नोंद केवळ प्रशिक्षण आणि प्रात्यक्षिकासाठी आहे. याचा कोणत्याही वास्तविक व्यक्तीशी संबंध नाही.
+Person: Akash Rao Demo 03, Phone: 9030100430, associated with the fictional training record.
+Person: Akash Kumar Demo 03, Phone: 9030200449, associated with the fictional training record.
+Person: Akash Patil Demo 03, Phone: 9030300468, associated with the fictional training record.
+Person: Akash Shetty Demo 03, Phone: 9030400487, associated with the fictional training record.
+Person: Akash Kulkarni Demo 03, Phone: 9030500506, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.

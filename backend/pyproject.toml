@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "criminal-network-analysis-backend"
+version = "0.1.0"
+description = "Offline-first criminal network analysis support API"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "SQLAlchemy>=2.0,<3",
+  "pwdlib[argon2]>=0.2.1,<1",
+  "PyJWT>=2.10,<3",
+  "psycopg[binary]>=3.2,<4",
+  "minio>=7.2,<8",
+  "python-multipart>=0.0.20,<1",
+  "celery[redis]>=5.5,<6",
+  "flower>=2.0,<3",
+  "httpx>=0.28,<1",
+  "spacy>=3.7.5,<3.8",
+  "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl",
+  "pymupdf>=1.25,<2",
+  "neo4j>=5.28,<7",
+  "splink>=4.0,<5",
+  "duckdb>=1.1,<2",
+  "pandas>=2.0,<3",
+  "urllib3>=1.26.20,<2; python_version < '3.10'",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

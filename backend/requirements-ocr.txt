@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Pinned versions verified on Linux ARM64/Python 3.12 for the local OCR worker.
+paddlepaddle==3.2.2
+paddleocr==3.3.3

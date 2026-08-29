@@ -1,0 +1,14 @@
+SYNTHETIC DATASET — NO REAL PERSONS OR ALLEGATIONS
+FIR: SYN-FIR-017
+Case: KSP-SYN-017
+Language: en
+Location: Synthetic Sector 17, Karnataka
+Organization: Demonstration Cooperative Society
+This fictional FIR records a reported association for training and demonstration only.
+Person: Manoj Rao Demo 17, Phone: 9170102348, associated with the fictional training record.
+Person: Manoj Kumar Demo 17, Phone: 9170202367, associated with the fictional training record.
+Person: Manoj Patil Demo 17, Phone: 9170302386, associated with the fictional training record.
+Person: Manoj Shetty Demo 17, Phone: 9170402405, associated with the fictional training record.
+Person: Manoj Kulkarni Demo 17, Phone: 9170502424, associated with the fictional training record.
+Review note: Every extracted entity and relationship requires human confirmation before graph projection.
+Interpretation boundary: This record does not establish guilt, identity, intent, or a basis for enforcement action.
